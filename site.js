@@ -2,12 +2,12 @@ var bbox = [121.01741, 14.552848, 121.062561, 14.585920]
 
 var center = turf.center(pts).geometry.coordinates;
 
-var map = L.mapbox.map('map', 'examples.map-y7l23tes', { zoomControl: false })
+var map = L.mapbox.map('map', 'examples.map-y7l23tes', { zoomControl: false, minZoom: 12 })
     .setView([14.569383395779191, 121.039981842041, ], 13);
 
 //map.scrollWheelZoom.disable();
 
-var heat = L.heatLayer([], { maxZoom: 13 }).addTo(map);
+var heat = L.heatLayer([], { maxZoom: 15 }).addTo(map);
 
 var layerGroup = L.layerGroup().addTo(map);
 
