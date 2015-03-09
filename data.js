@@ -128,6 +128,22 @@ var pts = {
           14.552847136108525
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-symbol": "circle",
+        "marker-color": "#ffff00",
+        "id": "mozilla",
+        "name": "MozSpaceMNL"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.01563006639479,
+          14.546704550762131
+        ]
+      }
     }
   ]
 }
